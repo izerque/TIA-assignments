@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment Forms</title>
+<!--Link to css-->
+<link href="form.css" rel="stylesheet">  
+</head>
+
+<body>
+    <div id="container">
+<section>
+    <form>
+        <label for="name">Name:</label><br>
+        <input class="inputs" type="text" id="name" name="name"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" class="inputs" id="age" name="age"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" class="inputs" name="email"><br><br>
+        
+    </form>
+</section>
+
+<section id="expirience">
+    <label for="status">Expirience:</label>
+    <select id="status" name="status">
+        <option value="hobbyist">Hobbyist</option>
+        <option value="student">Student</option>
+        <option value="intern">Intern</option>
+        <option value="professional">Professional</option>
+    </select><br><br>
+</section>
+
+<section>
+    <label>Operating System:</label><br>
+    <input type="radio" id="linux" name="os" value="Linux">
+    <label for="linux">Linux</label><br>
+    <input type="radio" id="macos" name="os" value="MacOs">
+    <label for="macos">MacOs</label><br>
+    <input type="radio" id="windows" name="os" value="Windows">
+    <label for="windows">Windows</label><br><br>
+</section>
+
+<section>
+    <label>Programming Languages:</label><br>
+    <input type="checkbox" id="c" name="language" value="C">
+    <label for="c">C</label><br>
+    <input type="checkbox" id="cpp" name="language" value="C++">
+    <label for="cpp">C++</label><br>
+    <input type="checkbox" id="cs" name="language" value="C#">
+    <label for="cs">C#</label><br>
+    <input type="checkbox" id="javascript" name="language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <input type="checkbox" id="typescript" name="language" value="Typescript">
+    <label for="typescript">Typescript</label><br><br>
+</section>
+
+<section>
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea><br><br>
+    
+</section>
+
+<button type="submit">Submit Form</button>
+
+
+
+
+</div>
+
+
+
+
+</body>
+
+</html>
